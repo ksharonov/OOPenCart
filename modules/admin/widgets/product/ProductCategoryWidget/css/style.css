@@ -1,0 +1,16 @@
+.categories__item {
+    position: relative;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.categories__item_delete {
+    opacity: 0;
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+}
+
+.categories__item:hover .categories__item_delete {
+    opacity: 1;
+}

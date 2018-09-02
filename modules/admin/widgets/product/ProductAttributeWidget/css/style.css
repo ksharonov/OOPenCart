@@ -1,0 +1,35 @@
+.product-attributes {
+
+}
+
+td.product-attributes__header {
+    background-color: #f0f1ff !important;
+    color: #0a0a0a !important;
+    font-weight: 600;
+    text-align: center;
+}
+
+.product-attributes__item {
+
+}
+
+.product-attributes__title {
+
+}
+
+.product-attributes__value {
+
+}
+
+.product-attributes__value-item {
+
+}
+
+.product-attributes__actions {
+    width: 20%;
+}
+
+.product-attributes__add-button,
+.product-attributes__delete-button {
+    margin: 2px;
+}

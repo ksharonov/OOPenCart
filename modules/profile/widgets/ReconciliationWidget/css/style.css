@@ -1,0 +1,19 @@
+.reconcillation__input {
+    display: block;
+    font-size: .94rem;
+    width: 100%;
+    line-height: 1.5;
+    padding: .6rem 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid #ececec;
+    font-family: inherit;
+    background: #ececec;
+    color: #686868;
+    margin-bottom: 1.2rem;
+    -webkit-transition: border-color .2s;
+    transition: border-color .2s;
+}
+
+.reconcillation__input + .help-block {
+    display: none !important;
+}

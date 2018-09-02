@@ -1,0 +1,27 @@
+.kv-grid-table {
+    font-size: 14px;
+}
+
+.kv-grid-table th, .kv-grid-table td {
+    padding: 0;
+}
+
+.table thead tr th,
+.table tbody tr td{
+    padding: 5px;
+}
+
+._220v ._220v__body .main_fullwidth {
+    border: none; !important;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; !important;
+}
+
+.header {
+    display: none;
+}
+
+.footer {
+    display: none;
+}

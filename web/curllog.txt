@@ -1,0 +1,22 @@
+*   Trying 77.79.133.189...
+* TCP_NODELAY set
+* Connected to 77.79.133.189 (77.79.133.189) port 16566 (#0)
+> POST /api/v1.0/OAuth/Token HTTP/1.1
+Host: 77.79.133.189:16566
+Accept: */*
+Content-Length: 124
+Content-Type: application/x-www-form-urlencoded
+
+* upload completely sent off: 124 out of 124 bytes
+< HTTP/1.1 302 Found
+< Cache-Control: private
+< Transfer-Encoding: chunked
+< Content-Type: text/html; charset=utf-8
+< Location: /Http404ErrorPage.aspx
+< Server: Microsoft-IIS/7.5
+< X-AspNet-Version: 4.0.30319
+< X-Powered-By: ASP.NET
+< Date: Thu, 10 May 2018 09:33:55 GMT
+< 
+* Curl_http_done: called premature == 0
+* Connection #0 to host 77.79.133.189 left intact

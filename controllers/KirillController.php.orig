@@ -1,0 +1,38 @@
+<?php
+
+namespace app\controllers;
+
+use app\models\db\Client;
+use app\models\db\ProductPriceGroup;
+use app\models\session\CitySession;
+use app\models\session\OrderSession;
+use app\system\db\ActiveRecordCookie;
+use app\system\db\ActiveRecordSession;
+use yii\web\Controller;
+use app\models\db\OrderContent;
+
+class KirillController extends Controller
+{
+    public function actionIndex()
+    {
+        $client = Client::findOne(1);
+
+        $ppg = ProductPriceGroup::findPriceGroupByClient($client);
+        dump($ppg);
+    }
+
+    public function actionTest()
+    {
+        $queryBest = OrderContent::find()
+            ->select('productId, count(*) as count')
+            ->orderBy('count DESC')
+            ->groupBy('productId')
+            ->indexBy('productId')
+            ->having('count > 5')
+            ->asArray()
+            ->column();
+        $bestProductId = array_keys($queryBest);
+
+        dump($queryBest);
+    }
+}

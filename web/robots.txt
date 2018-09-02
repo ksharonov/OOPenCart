@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /api/*
+Disallow: /admin/*
+Disallow: /profile/*
+Disallow: /backoffice/*
+Disallow: /extension/*
+Disallow: /order/*
+Disallow: /lexema/*
+Disallow: /cart/*
+Disallow: /error/*
+Crawl delay: 0.7
